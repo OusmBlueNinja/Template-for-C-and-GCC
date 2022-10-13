@@ -1,5 +1,3 @@
-// This is my default standarl library for c that in cludes functions like delay
-
 #include <stdio.h>
 #include <time.h>
 
@@ -14,3 +12,5 @@ void delay(int number_of_seconds)
     // looping till required time is not achieved
     while (clock() < start_time + milli_seconds);
 }
+
+//void ()
